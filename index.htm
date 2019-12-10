@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="boot4/css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="boot4/css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="boot4/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+    <title>Cashflow demonstrator</title>
+</head>
+<body>
+    <div class="jumbotron jumbo-class">
+        <h3>The Cashflow Project</h3>
+        <p>This is a demo project based loosely on the budget app project in Jonas Schmedtmann's Udemy course, <strong>The Complete JavaScript Course 2020: Build Real Projects!</strong> Any errors are mine and should not reflect on Jonas' excellent course</p><br>
+        <button class="btn btn-primary" id="disp-output">Display items </button>
+        <button class="btn btn-primary hide1" id="disp-input">Add items</button>
+
+    </div>
+    <div id="form-container1" class="container1">
+        <ul id="form-list1">
+            <li>
+                <ul class="list-inline">
+                    <li class="list-inline-item">Description:</li>
+                    <li class="list-inline-item">
+                        <input type="text" name="description"  id="description" placeholder="description">
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="list-inline">
+                    <li class="list-inline-item">Type:</li>
+                    <li class="list-inline-item">
+                        <select name="type" id="type" size="1">
+                            <option value="inc">Income</option>
+                            <option value="exp">Expense</option>
+                        </select>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="list-inline">
+                    <li class="list-inline-item">Amount:</li>
+                    <li class="list-inline-item">
+                        <input name="amount" id="amount" type="number" placeholder="amount">
+                    </li>
+                </ul>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <button class="btn btn-primary" id="go">Go!</button> 
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        
+        <div class="result-class hide1">
+            <p><strong>Item successfully added</strong></p>
+            <p>
+              <button id="another-item" class="btn btn-primary">Add another item</button>
+            </p>
+        </div>
+        
+    </div>
+    <div class="list-container1 container1 hide1" id="lists">
+        <ul id="main-list">
+<!------------------------------------------------------------->
+<---------------------------------------------------------->
+        </ul>
+        
+    </div><!-- END LIST-CONTAINER1 -------------------------->
+<footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="boot4/js/bootstrap.bundle.js"></script>
+<script src="boot4/js/bootstrap.js"></script>
+<script src="js/slm1.js"></script>
+</footer>
+</body>
+</html>

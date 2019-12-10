@@ -1,0 +1,99 @@
+p, li, ul, a {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+*[class*="red"] {
+    font-weight: bolder;
+    color: red;
+}
+
+*[class*="grey"] {
+    font-weight: 300;
+    color: gray;
+}
+
+*[class*="hide1"] {
+    display: none;
+}
+
+div[class*="jumbotron"] {
+    text-align: center;
+}
+
+
+#form-list1 {
+    li {
+        list-style: none;
+        //background-color: black; //***************************
+    }
+    ul.list-inline {
+        margin: auto;
+        li:first-child {
+            width: 100px;
+            background-color: white;
+            font-weight: bolder;
+        }
+
+    }
+    #go {
+        font-weight: bolder;
+    }
+}
+
+
+div[class*="container1"] {
+    width: 98%;
+    max-width: 600px;
+    margin: auto;
+    //background-color: aquamarine;
+}
+
+
+#main-list {
+    padding:0;
+    li {
+        list-style: none;
+        button[class*="btn-primary"] {
+            border: 0;
+            padding:0;
+            margin: 0;
+            margin-left: 4px;
+            max-height: 1.25rem;
+            width: 2rem;
+            font-weight: bolder;
+        }
+        &.btn-or-span {
+            max-width: 3rem;
+        }
+    }
+    
+    li[class*="index"] {
+        //background-color: chocolate;
+        width: 3rem;
+        text-align: right;
+    }
+    
+    li[class*="desc"] {
+        //background-color: orange;
+        width:40%;
+        min-width: 8rem;
+    }
+    
+    
+    
+    li[class*="nbr"] {
+        width: 14%;
+        //background-color: pink;
+        min-width: 7rem;
+        text-align: right;
+        font-weight: bolder;
+        &.red{
+            color: red;
+        }
+    }
+}
+

@@ -1,0 +1,64 @@
+p, li, ul, a {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+*[class*="red"] {
+  font-weight: bolder;
+  color: red; }
+
+*[class*="grey"] {
+  font-weight: 300;
+  color: gray; }
+
+*[class*="hide1"] {
+  display: none; }
+
+div[class*="jumbotron"] {
+  text-align: center; }
+
+#form-list1 li {
+  list-style: none; }
+#form-list1 ul.list-inline {
+  margin: auto; }
+  #form-list1 ul.list-inline li:first-child {
+    width: 100px;
+    background-color: white;
+    font-weight: bolder; }
+#form-list1 #go {
+  font-weight: bolder; }
+
+div[class*="container1"] {
+  width: 98%;
+  max-width: 600px;
+  margin: auto; }
+
+#main-list {
+  padding: 0; }
+  #main-list li {
+    list-style: none; }
+    #main-list li button[class*="btn-primary"] {
+      border: 0;
+      padding: 0;
+      margin: 0;
+      margin-left: 4px;
+      max-height: 1.25rem;
+      width: 2rem;
+      font-weight: bolder; }
+    #main-list li.btn-or-span {
+      max-width: 3rem; }
+  #main-list li[class*="index"] {
+    width: 3rem;
+    text-align: right; }
+  #main-list li[class*="desc"] {
+    width: 40%;
+    min-width: 8rem; }
+  #main-list li[class*="nbr"] {
+    width: 14%;
+    min-width: 7rem;
+    text-align: right;
+    font-weight: bolder; }
+    #main-list li[class*="nbr"].red {
+      color: red; }
+
+/*# sourceMappingURL=style1.css.map */
